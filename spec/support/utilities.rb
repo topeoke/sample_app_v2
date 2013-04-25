@@ -1,6 +1,4 @@
-module ApplicationHelper
-
-	def full_page(title_page)
+def full_page(title_page)
 		base_title = 'Ruby on rails tutorial'
 		if title_page.empty?
 			base_title
@@ -8,5 +6,3 @@ module ApplicationHelper
 			base_title + " | " + title_page
 		end
 	end
-
-end
